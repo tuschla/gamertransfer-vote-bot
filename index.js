@@ -6,5 +6,5 @@ const bot = require('./bot');
 
 setInterval(async () => {
   await bot.run()
-  // 4 hours * 60 mins * 60 s * 1000 ms
-}, 4 * 60 * 60 * 1000)
+  // 24 hours * 60 mins * 60 s * 1000 ms
+}, 24 * 60 * 60 * 1000)

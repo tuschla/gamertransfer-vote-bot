@@ -1,0 +1,12 @@
+[Unit]
+Description=Gamertransfer Pushing Bot
+
+[Service]
+Type=simple
+Restart=always
+User=lt
+WorkingDirectory=/mnt/nvme0/lt/Documents/gamertransfer-vote-bot
+ExecStart=/usr/bin/npm run-script run
+
+[Install]
+WantedBy=multi-user.target
